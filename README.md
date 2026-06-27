@@ -1,56 +1,153 @@
-# 🚀 React Quiz App 
+# 🚀 Smart Recruitment Portal
 
-The "React Quiz App" is a dynamic and engaging web application built with React.js. This project offers a variety of features, including a complete responsive design for seamless use on different devices, a clean and intuitive user interface, and a timed quiz with a progress bar to track your progress. 
+## 📌 Project Description
 
-As you answer questions, the app instantly updates your score and provides a comprehensive scorecard once the quiz is completed. The quiz also includes an automatic submission feature when the timer runs out.
+The Smart Recruitment Portal is a React.js-based web application developed to streamline the recruitment assessment process. The application allows candidates to attend multiple interview rounds, answer technical questions within a specified time, and receive an automatic score with a final result.
 
-# Demo
+This project simulates a real company recruitment process by conducting different assessment rounds such as Technical Round 1, Technical Round 2, and HR Round. At the end of the assessment, the application calculates the total score and displays the candidate's performance.
 
- [WEBSITE-Demo](https://vinayak9669.github.io/React-QuizApp/)
- 
- [Check out the LinkedIn Post with Video Demo](https://www.linkedin.com/posts/vinay1998_reactjs-webdevelopment-frontenddevelopment-activity-7125437291241644032-3ko7?utm_source=share&utm_medium=member_desktop)
+---
 
-## 🛠️Technology Used 
+# ✨ Features
 
-- [React.js](https://reactjs.org/)
+- 👤 Candidate Login
+- 📝 Technical Round 1 Assessment
+- 💻 Technical Round 2 Assessment
+- 👨‍💼 HR Interview Round
+- ⏳ Timer for Every Round
+- 📊 Automatic Score Calculation
+- 📈 Final Result Dashboard
+- 🔄 Navigation Between Questions
+- 📱 Fully Responsive Design
+- 🎯 User-Friendly Interface
 
-## 📋Project Features 
+---
 
-- 🌐 Complete Responsive Website: This quiz app is designed to work seamlessly on various devices and screen sizes.
-- 🎨 Clean and Simple User Interface: A user-friendly design for an enjoyable quiz experience.
-- ⏲️ Timer for Quiz: Each quiz question is timed, adding an element of challenge and excitement.
-- 📊 Progress Bar: Keep track of your quiz progress in real-time.
-- 📈 Score Update: Instant feedback on your score after answering each question.
-- 📜 Score Card: Get a comprehensive scorecard with your quiz results.
-- ⏱️ Auto-Submission: The quiz automatically submits when the time is up.
+# 🛠️ Technology Used
 
-## 📚Learning Points 
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- React Hooks
+- VS Code
+- Git
+- GitHub
 
-- 📡 Creating a Fake API: Learn how to create and deploy a mock API and integrate it into project.
-- ⚙️ State Management: Explore state management techniques using the `useReducer` hook to efficiently handle application state.
-- 🔄 Fetching Data with `useEffect()`: Utilize the `useEffect` hook for fetching API data and managing timers.
+---
 
-## How to Install and Run
+# 📚 What I Learned
 
-1. Clone the repository:
+During the development of this project, I learned:
 
-    ```bash
-   gh repo clone VINAYAK9669/React-QuizApp
-    ```
+- Building applications using React.js
+- Creating reusable React Components
+- Managing application state using React Hooks
+- Handling user events
+- Conditional Rendering
+- Navigation between multiple screens
+- Timer implementation using JavaScript
+- Automatic score calculation
+- Responsive Web Design
+- Project deployment using GitHub
 
-2. Install dependencies:
+---
 
-    ```bash
-    cd React-QuizApp
-    npm install
-    ```
+# 📂 Project Structure
 
-3. Start the development server:
+```
+src/
+│
+├── components/
+│   ├── Login.js
+│   ├── Header.js
+│   ├── Main.js
+│   ├── Question.js
+│   ├── Options.js
+│   ├── Progress.js
+│   ├── Timer.js
+│   ├── NextButton.js
+│   ├── FinishScreen.js
+│   ├── FinalResult.js
+│   ├── Footer.js
+│   └── Loader.js
+│
+├── App.js
+├── index.js
+└── index.css
+```
 
-    ```bash
-    npm start
-    ```
+---
 
-## 📱Responsiveness 
-![ScreenShots](ScreenShots/React_Quiz_App_Responsivness.png)
+# ⚙️ Installation
 
+## Clone the Repository
+
+```bash
+git clone https://github.com/gowsika106-bit/Smart-Recruitment-Portal-New.git
+```
+
+## Navigate to the Project Folder
+
+```bash
+cd Smart-Recruitment-Portal-New
+```
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+## Run the Project
+
+```bash
+npm start
+```
+
+The application will run at:
+
+```
+http://localhost:3000
+```
+
+---
+
+# 📸 Screenshots
+
+You can add screenshots of the following pages:
+
+- Login Page
+- Technical Round 1
+- Technical Round 2
+- HR Round
+- Final Result Page
+
+---
+
+# 🎯 Future Enhancements
+
+- Candidate Registration
+- Admin Dashboard
+- Database Integration
+- Authentication
+- Result Download (PDF)
+- Email Notification
+- Cloud Deployment
+
+---
+
+# 👩‍💻 Developed By
+
+**Gowsika R**
+
+B.E. Computer Technology
+
+Karpagam College of Engineering
+
+GitHub:
+https://github.com/gowsika106-bit
+
+---
+
+# ⭐ If you like this project, don't forget to give it a Star!
